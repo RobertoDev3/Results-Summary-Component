@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;800&display=swap');
+
+* {
+    font-family: 'Hanken Grotesk', 'Outfit', sans-serif;
+}
+
+main {
+    height: 100vh;
+}
+
+h4 {
+    font-weight: 800;
+    font-size: 4em;
+}
+
+.container-main {
+    max-width: 700px;
+    min-width: 400px;
+}
+
+@media (max-width: 450px) {
+    main {
+        height: 100%;
+    }
+
+    .container-main {
+        min-width: auto;
+    }
+
+    .container-main.m-4 {
+        margin: 0 !important;
+    }
+
+    .container-main.rounded-5 {
+        border-radius: 0 !important;
+    }
+
+    .Result.rounded-5 {
+        border-top-right-radius: 0 !important;
+        border-top-left-radius: 0 !important;
+    }
+}
+
+
+/* Font Weight / Size -------------------------------- */
+.w500 {
+    font-weight: 500;
+}
+
+.w700 {
+    font-weight: 700;
+}
+
+.w800 {
+    font-weight: 800;
+}
+
+.font-size {
+    font-size: 18px;
+}
+
+/* Cores Background --------------------------------- */
+.ColorLleBlue {
+    color: hsl(221, 100%, 96%);
+}
+
+.ColorLightLavender {
+    color: hsl(241, 100%, 89%);
+}
+
+.ColorDarkLayBlue {
+    color: hsl(224, 30%, 27%);
+}
+
+.opacity {
+    color: hsl(224, 30%, 27%, 0.50);
+}
+
+.Result {
+    background-image: linear-gradient(180deg, #7857ff, #2e2be9);
+}
+
+.color-circle {
+    background-image: linear-gradient(180deg, #4e21ca, #2421ca00);
+}
+
+/* Sumamary ---------------------------------- */
+.p-6 {
+    padding: 32px 40px;
+}
+
+.Reaction {
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.05);
+}
+
+.Memory {
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%, 0.05);
+}
+
+.Verbal {
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 37%, 0.05);
+}
+
+.Visual {
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 45%, 0.05);
+}
+
+.btn-continue {
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(221, 100%, 96%);
+    margin-top: 40px;
+}
+
+.btn-continue:hover {
+    background-image: linear-gradient(180deg, #7857ff, #2e2be9);
+}
+
+.height-size {
+    height: 50px;
+}
+
+/* Rodapé ----------------------------------------- */
+footer {
+    font-size: 11px;
+    text-align: center;
+}
+
+footer a {
+    color: hsl(228, 45%, 44%);
+}
