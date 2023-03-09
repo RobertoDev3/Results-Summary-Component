@@ -8,11 +8,10 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 
-  <title>Frontend Mentor | Results summary component</title>
+  <title>Frontend Mentor | Result summary component</title>
 
   <!-- bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- CSS da página -->
   <link rel="stylesheet" href="style.css">
@@ -21,77 +20,61 @@
 <body>
 
   <main class="d-flex flex-column justify-content-center align-items-center">
-    <section class="container-main row text-center m-4 shadow rounded-5">
-      <!-- Result -->
-      <section class="Result col-12 col-lg-6 rounded-5 p-4">
+    <section class="ContainerMain row text-center m-4 shadow rounded-5">
+      <!-- BgPurple -->
+      <section class="BgPurple col-12 col-lg-6 rounded-5 p-4">
 
-        <p class="ColorLightLavender fs-5 w700 mt-2">Your Result</p>
+        <p class="TextLightLavender fs-5 w700 mt-2">Your Result</p>
 
         <!-- Score -->
-        <div class="rounded-circle color-circle mx-auto mt-4 d-flex flex-column justify-content-center"
+        <div class="rounded-circle BgCircle mx-auto mt-4 d-flex flex-column justify-content-center"
           style="width: 180px; height: 180px;">
-          <h4 class="m-0 ColorLleBlue">76</h4>
-          <p class=" m-0 ColorLightLavender w500">of 100</p>
+          <h4 class="m-0 TextBlue">76</h4>
+          <p class=" m-0 TextLightLavender w500">of 100</p>
         </div> <!-- End Score -->
 
         <!-- Ranking -->
         <div class="m-4">
           <h3 class="text-white p-1">Great</h3>
-          <p class="ColorLightLavender font-size">You scored higher than 65% of the people who have taken these tests.
+          <p class="TextLightLavender Fs18">You scored higher than 65% of the people who have taken these tests.
           </p>
         </div> <!-- End Ranking -->
 
-      </section> <!-- End Result -->
+      </section> <!-- End BgPurple -->
 
       <!-- Summary -->
-      <section class="col-12 col-lg-6 p-6 w700">
-        <p class="d-flex fs-5 mb-4 w800 ColorDarkLayBlue">Summary</p>
+      <section class="col-12 col-lg-6 PCuston w700">
+        <p class="d-flex fs-5 mb-4 w800 TextDarkBlue">Summary</p>
 
         <!-- Reaction -->
-        <div class="height-size Reaction rounded-3 mb-3 d-flex flex-row align-items-center justify-content-between p-3">
-          <div>
-            <img src="assets/images/icon-reaction.svg" alt="icon reaction">
-            <span>Reaction</span>
-          </div>
-          <div class="w800">
-            <span class="ColorDarkLayBlue">80 <span class="opacity">/ 100</span></span>
-          </div>
+        <div class="HsCuston Reaction rounded-3 mb-3 d-flex flex-row align-items-center p-3">
+          <img src="assets/images/icon-reaction.svg" alt="icon reaction">
+          <span>Reaction</span>
+          <span class="TextDarkBlue w800 ms-auto">80 <span class="Opacity">/ 100</span></span>
         </div> <!-- End Reaction -->
 
         <!-- Memory -->
-        <div class="height-size Memory rounded-3 mb-3 d-flex flex-row align-items-center justify-content-between p-3">
-          <div>
+        <div class="HsCuston Memory rounded-3 mb-3 d-flex flex-row align-items-center p-3">
             <img src="assets/images/icon-memory.svg" alt="icon memory">
             <span>Memory</span>
-          </div>
-          <div class="w800">
-            <span class="ColorDarkLayBlue">92 <span class="opacity">/ 100</span></span>
-          </div>
+            <span class="TextDarkBlue w800 ms-auto">92 <span class="Opacity">/ 100</span></span>
         </div> <!-- End Memory -->
 
         <!-- Verbal -->
-        <div class="height-size Verbal rounded-3 mb-3 d-flex flex-row align-items-center justify-content-between p-3">
-          <div>
+        <div class="HsCuston Verbal rounded-3 mb-3 d-flex flex-row align-items-center p-3">
             <img src="assets/images/icon-verbal.svg" alt="icon verbal">
             <span>Verbal</span>
-          </div>
-          <div class="w800">
-            <span class="ColorDarkLayBlue">61 <span class="opacity">/ 100</span></span>
-          </div>
+            <span class="TextDarkBlue w800 ms-auto">61 <span class="Opacity">/ 100</span></span>
         </div> <!-- End Verbal -->
 
         <!-- Visual -->
-        <div class="height-size Visual rounded-3 d-flex flex-row align-items-center justify-content-between p-3">
-          <div>
+        <div class="HsCuston Visual rounded-3 d-flex flex-row align-items-center p-3">
             <img src="assets/images/icon-visual.svg" alt="icon visual">
             <span>Visual</span>
-          </div>
-          <div class="w800">
-            <span class="ColorDarkLayBlue">72 <span class="opacity">/ 100</span></span>
-          </div>
+            <span class="TextDarkBlue w800 ms-auto">72 <span class="Opacity">/ 100</span></span>
         </div> <!-- End Visual -->
 
-        <button type="button" class="btn-continue height-size w-100 w700 rounded-5">Continue</button>
+        <button type="button" class="BtnContinue HsCuston w-100 w700 rounded-5">Continue</button>
 
       </section> <!-- End Summary -->
     </section>
