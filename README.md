@@ -1,6 +1,6 @@
 
 # Links - Dark and Light Mode
-Projeto simples com a finalidade de aprimorar o Boostrap.
+Projeto simples com a finalidade de aprimorar o Bootstrap.
 
 ## Layout
 
@@ -10,6 +10,6 @@ Projeto simples com a finalidade de aprimorar o Boostrap.
 
 
 ## *Tecnologias*
-> Html / Css / JavaScript
+> Html / Css / Bootstrap
 
 [⭐ Acesse a pagina clicando aqui ⭐](https://robertodev3.github.io/Results-Summary-Component/)
